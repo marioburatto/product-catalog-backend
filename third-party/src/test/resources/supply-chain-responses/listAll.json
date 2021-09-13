@@ -1,0 +1,22 @@
+{
+  "bundle": [
+    {
+      "quantity": 100,
+      "id": "supertest1",
+      "price": 100,
+      "name": "supertest1"
+    },
+    {
+      "quantity": 3,
+      "id": "2b72dec4-e64d-4b64-ace9-f47f117dfc91",
+      "price": 3000,
+      "name": "New Beginning III"
+    },
+    {
+      "quantity": 1,
+      "id": "97a5a660-ca95-43e8-870b-cfa4aecaaa14",
+      "price": 123.987,
+      "name": "Some Product Name"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    default: dev
+
+integration:
+  supply-chain:
+    connection-timeout-millis: 2000
+    response-timeout-millis: 5000
+    read-timeout-millis: 5000
+    write-timeout-millis: 5000
