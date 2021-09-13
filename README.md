@@ -20,7 +20,7 @@ Among the features implemented, it's important to highlight that:
 
 ### General Flow Overview
 An overview diagram:
-![](/home/buratto/tools-dev/workspaces/personal/product-catalog-backend/images/product_catalog.drawio.png)
+![](./images/product_catalog.drawio.png)
 
 ### Future Enhancements
 As a highlight for future enhancements could be:
