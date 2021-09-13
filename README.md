@@ -18,6 +18,10 @@ Among the features implemented, it's important to highlight that:
 4. A JaCoCo plugin is also in place to provide test coverage metrics;
 5. The process of persisting the data and posting the notification in the queue happens inside a transaction. If the notification fails, the database change is rolled back.
 
+### General Flow Overview
+An overview diagram:
+![](/home/buratto/tools-dev/workspaces/personal/product-catalog-backend/images/product_catalog.drawio.png)
+
 ### Future Enhancements
 As a highlight for future enhancements could be:
 1. Add more test scenarios to cover a wider range of possible inputs, testing each component individually;
