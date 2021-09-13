@@ -30,7 +30,7 @@ As a highlight for future enhancements could be:
 4. Configure a CI/CD environment to make the build and deployment process easier;
 5. Depending on the future usage of this application there a couple refactorings could be interesting:
    1. Remove the ProductService's @Transactional. This transaction holds the database connection too long, affecting the performance and reducing the number of databases that the application can support. If a clever mechanism for coordinating the persistence and the notification was put in place maybe it wouldn't be necessary to hold a transaction;
-   2. Check in the requirements if the local Product consistency really needs to be strong. If it was possible, then the entire process (persistence and notification) could happen through queues, even if some L1 cache (Redis, for instance) become necessary for some realtime check/response until the message get processed.
+   2. Check in the requirements if the local Product consistency really needs to be strong. If it was possible to be eventually consistent, then the entire process (persistence and notification) could happen through queues, even if some L1 cache (Redis, for instance) become necessary for some realtime check/response until the message get processed;
    3. This project aspects could fit very well in a Domain Driven Design, where the data changes happen through events by nature. Although the code could become a little more verbose, it would be way easier to be extended, exported and reused.
    
 ## Build and Run
